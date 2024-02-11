@@ -54,6 +54,19 @@ h2 {
     padding: 10px;
 }
 
+.Banner{
+    /* display: flex;
+    float: left; */
+    width: 100%;
+    color: var(--text);
+    text-align: center;
+}
+
+.Banner a{
+    color: var(--Image);
+    font-size: 50px;
+}
+
 .Grid {
     display: flex;
     flex-direction: column;
@@ -65,7 +78,7 @@ h2 {
 
 .Grid a{
     color: var(--Image);
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .Horiseon{
@@ -97,7 +110,7 @@ h3{
 
 .Contact a{
     color: var(--text);
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     padding: 10px;
