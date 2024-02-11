@@ -1,0 +1,21 @@
+header h1{
+    color: darkred;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header nav a{
+    padding: 10px;
+}
+
+.Photo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
