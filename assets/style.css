@@ -44,3 +44,42 @@ h2 {
     font-size: 30px;
     color: var(--text);
 }
+
+.Work nav{
+    padding: 10px;
+}
+
+.Grid {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width:32.50%;
+    color: var(--text);
+    text-align: center;
+}
+
+.Grid a{
+    color: var(--text);
+    font-size: 30px;
+}
+
+.Horiseon{
+    background-image: url(./img/Horiseon.PNG);
+    height: 800px;
+    width: auto;
+    object-fit: contain;
+}
+
+.Prework{
+    background-image: url(./img/Prework.PNG);
+    height: 800px;
+    width: auto;
+    object-fit: contain;
+}
+
+.Ticket{
+    background-image: url(./img/Ticket.PNG);
+    height: 800px;
+    width: auto;
+    object-fit: fill;
+}
