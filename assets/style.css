@@ -115,3 +115,23 @@ h3{
     justify-content: center;
     padding: 10px;
 }
+
+@media only screen and (max-width: 992px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .Photo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
